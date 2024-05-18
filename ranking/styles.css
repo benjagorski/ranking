@@ -1,0 +1,58 @@
+body {
+  background-image: url(./img/fondito.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.titulo {
+  margin-top: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.subtitulo {
+  color: #fff;
+  text-align: center;
+}
+
+.linea {
+  width: 280px;
+  margin: -5px auto -10px auto;
+  padding: 1.2px;
+  background: rgb(215, 96, 171);
+  background: linear-gradient(
+    90deg,
+    rgba(215, 96, 171, 1) 0%,
+    rgba(190, 43, 121, 0.8253676470588236) 29%,
+    rgba(215, 18, 83, 1) 100%
+  );
+}
+
+.tabla {
+  margin: 20px 0;
+  color: #fff;
+  width: 100%;
+}
+
+.encabezados {
+  width: 100%;
+  background: rgb(51, 176, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(51, 176, 226, 1) 0%,
+    rgba(60, 210, 218, 0.8253676470588236) 40%,
+    rgba(78, 235, 224, 1) 100%
+  );
+}
+
+.encabezados > th {
+  border-radius: 6px;
+  box-shadow: white;
+}
+
+.logo {
+  width: 50px;
+}
