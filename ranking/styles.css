@@ -38,6 +38,7 @@ body {
 }
 
 .encabezados {
+  color: black;
   width: 100%;
   background: rgb(51, 176, 226);
   background: linear-gradient(
